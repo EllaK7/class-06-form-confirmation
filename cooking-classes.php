@@ -56,20 +56,20 @@ $nav_cooking_class = 'active_page';
 
       <p>Interesting in taking one of our cooking classes? Let us know which classes and we'll send you some information!</p>
 
-      <form id="request-form" novalidate>
+      <form action="confirmation.php" method="post" id="request-form" novalidate>
 
         <div class="form-label">
-          <input type="checkbox" id="request-vegetarian" />
+          <input name="japanese-vegetarian" type="checkbox" id="request-vegetarian" />
           <label for="request-vegetarian">Japanese Vegetarian</label>
         </div>
         <div class="form-label">
-          <input type="checkbox" id="request-sauces" />
+          <input name="sauces-masterclass" type="checkbox" id="request-sauces" />
           <label for="request-sauces">Sauces Masterclass</label>
         </div>
 
         <div class="form-label">
           <label for="request-email">Email:</label>
-          <input type="email" id="request-email" />
+          <input name="email" type="email" id="request-email" />
         </div>
 
         <div class="align-right">
